@@ -1,3 +1,4 @@
+using Engine;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -13,6 +14,7 @@ namespace WebApp
     {
         public static void Main(string[] args)
         {
+            WebConnector wc = new WebConnector("https://api.covid19api.com/");
             CreateHostBuilder(args).Build().Run();
         }
 
