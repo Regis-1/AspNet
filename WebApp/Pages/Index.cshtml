@@ -1,11 +1,42 @@
 ﻿@page
-@model IndexModel
+@model WebApp.Pages.IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Index";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>The time on the server is @DateTime.Now</p>
-</div>
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GlobalDataBase[0].TotalConfirmed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GlobalDataBase[0].DateDataBase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.GlobalDataBase) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalConfirmed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDataBase)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.GlobalDataBaseId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.GlobalDataBaseId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.GlobalDataBaseId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
