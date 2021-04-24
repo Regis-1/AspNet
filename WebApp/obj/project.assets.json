@@ -727,11 +727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\jdudz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\jdudz\\Documents\\development\\AspNet\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jdudz\\AppData\\Roaming\\NuGet\\NuGet.Config",
