@@ -1,0 +1,12 @@
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\bin\Debug\net5.0\Engine.deps.json
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\bin\Debug\net5.0\Engine.dll
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\bin\Debug\net5.0\ref\Engine.dll
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\bin\Debug\net5.0\Engine.pdb
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.csprojAssemblyReference.cache
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.AssemblyInfoInputs.cache
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.AssemblyInfo.cs
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.dll
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\ref\Engine.dll
+C:\Users\HARDPC\Source\Repos\AspNet\Engine\obj\Debug\net5.0\Engine.pdb

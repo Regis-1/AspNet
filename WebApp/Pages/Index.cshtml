@@ -3,4 +3,32 @@
 
 @{
     ViewData["Title"] = "Index";
-}
+    <h1>Covid19-API</h1>
+    <br>
+    <form method="post">
+        <div class="form-group">
+            <label for="dateFrom">Od:</label>
+            <input type="date" class="form-control" name="dateFrom" id="dateFrom">
+        </div>
+        <div class="form-group">
+            <label for="dateTo">Do:</label>
+            <input type="date" class="form-control" name="dateTo" id="dateTo">
+        </div>
+        <div class="form-group">
+            <label for="country">Wybierz Państwo</label>
+            <select class="form-control" name="country" id="country">
+                <option value=""></option>
+                <option value="Poland">Polska</option>
+                <option value="Germany">Niemcy</option>
+                <option value="Italy">Włochy</option>
+                <option value="France">Francja</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Sprawdź Dane</button>
+        <div class="form-group">
+            <label for="confirmedCases">Potwierdzone Przypadki</label>
+            <textarea class="form-control" id="confirmedCases" rows="4" readonly>
+            @ViewData["confirmedCases"]
+            </textarea>
+        </div>
+    </form>}

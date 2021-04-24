@@ -20,15 +20,17 @@
     <tbody>
         @foreach (var item in Model.GlobalDataBase)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotalConfirmed)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateDataBase)
-                </td>
-
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalConfirmed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDataBase)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.GlobalDataBaseId">Delete</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
