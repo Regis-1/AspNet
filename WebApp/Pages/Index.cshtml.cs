@@ -12,18 +12,6 @@ namespace WebApp.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly WebApp.Data.WebAppContext _context;
-
-        public IndexModel(WebApp.Data.WebAppContext context)
-        {
-            _context = context;
-        }
-
-        public IList<GlobalDataBase> GlobalDataBase { get;set; }
-
-        public async Task OnGetAsync()
-        {
-            GlobalDataBase = await _context.GlobalDataBase.ToListAsync();
-        }
+        
     }
 }
